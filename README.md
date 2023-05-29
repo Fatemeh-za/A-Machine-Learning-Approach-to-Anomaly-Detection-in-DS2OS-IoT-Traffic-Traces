@@ -18,7 +18,7 @@ This code is designed to perform anomaly detection on DS2OS traffic traces from 
 
 This code performs anomaly detection on DS2OS traffic traces from Kaggle. It imputes missing values, builds TF-IDF features on text columns, applies PCA to reduce dimensionality, prepares the target variable, splits the data into train and test sets, and compares the performance of multiple classifiers by plotting their ROC curves.
 
-To use this code, you will need to have a dataset stored in a variable named "df". This dataset should have columns named "value", "timestamp", and "normality". You will also need to have the following libraries installed: "numpy", "pandas", "sklearn", "xgboost", "matplotlib". 
+The following libraries required to be installed: "numpy", "pandas", "sklearn", "xgboost", "matplotlib". 
 
 
 
